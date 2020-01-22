@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.constraint.ConstraintLayout
 import android.support.design.widget.Snackbar
 import android.support.v7.widget.Toolbar
+import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import com.alejandrolora.seccion_04_activities_permisos_list.activities.*
@@ -12,6 +13,8 @@ import com.alejandrolora.seccion_04_activities_permisos_list.others.ToolbarActiv
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : ToolbarActivity() {
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +41,10 @@ class MainActivity : ToolbarActivity() {
         btnPermission.setOnClickListener { goToPermissionsActivity() }
         btnSharedPreferences.setOnClickListener { goToSharedPreferencesActivity() }
         btnExtensionFunctions.setOnClickListener { goToExtensionFunctionsActivity() }
+
+
+
+
     }
 
     fun showToast() {
@@ -47,10 +54,11 @@ class MainActivity : ToolbarActivity() {
     fun showSnackBar() {
         val layout = findViewById<ConstraintLayout>(R.id.constraint)
         Snackbar.make(layout, "Hello from the SnackBar!", Snackbar.LENGTH_LONG).show()
-        Snackbar.make(layout, "Hello from the SnackBar!", Snackbar.LENGTH_LONG).setAction("UNDO") {
+        Snackbar.make(layout,  "Hello from the SnackBar!", Snackbar.LENGTH_LONG).setAction("UNDO") {
             Snackbar.make(layout, "Email has been restored", Snackbar.LENGTH_LONG).show()
         }.show()
     }
+
 
     private fun goToLifeCycleActivity() = startActivity(Intent(this, LifeCycleActivity::class.java))
     private fun goToClickEventsActivity() = startActivity(Intent(this, ClickEventsActivity::class.java))
@@ -62,3 +70,7 @@ class MainActivity : ToolbarActivity() {
     private fun goToSharedPreferencesActivity() = startActivity(Intent(this, SharedPreferencesActivity::class.java))
     private fun goToExtensionFunctionsActivity() = startActivity(Intent(this, ExtensionFunctionsActivity::class.java))
 }
+
+
+
+

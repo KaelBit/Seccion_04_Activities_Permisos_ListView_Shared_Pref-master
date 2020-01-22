@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GitHub-Seccion_04_Activities_Permisos_ListView_Shared_Pref-master.iml" filepath="$PROJECT_DIR$/GitHub-Seccion_04_Activities_Permisos_ListView_Shared_Pref-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/GitHub-Seccion_04_Activities_Permisos_ListView_Shared_Pref-master-app.iml" filepath="$PROJECT_DIR$/app/GitHub-Seccion_04_Activities_Permisos_ListView_Shared_Pref-master-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion_04_Activities_Permisos_List.iml" filepath="$PROJECT_DIR$/Seccion_04_Activities_Permisos_List.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion_04_Activities_Permisos_ListView_Shared_Pref-master.iml" filepath="$PROJECT_DIR$/Seccion_04_Activities_Permisos_ListView_Shared_Pref-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/Seccion_04_Activities_Permisos_ListView_Shared_Pref-master-app.iml" filepath="$PROJECT_DIR$/app/Seccion_04_Activities_Permisos_ListView_Shared_Pref-master-app.iml" />
